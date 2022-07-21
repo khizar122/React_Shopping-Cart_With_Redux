@@ -2,7 +2,7 @@ import NavBar from './Containers/NavBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ProductListing from './Containers/ProductListing';
 import ProductDetails from './Containers/ProductDetails';
-
+import "./App.css";
 function App() {
   return (
     <div className='App'>
