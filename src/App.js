@@ -10,14 +10,11 @@ function App() {
 <br></br>
       <Router>
         <NavBar></NavBar>
-        
         <Routes>
           <Route path='/' element={<ProductListing></ProductListing>}></Route>
           <Route path='/product/:productId' element={<ProductDetails />}></Route>
         </Routes>
       </Router>
-
-
     </div>
   );
 }
